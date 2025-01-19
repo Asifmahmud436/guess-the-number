@@ -7,9 +7,15 @@
 </head>
 <body>
     <div class="root">
-        
+        <form onsubmit="submitGuess(event)">
+            <input type="text" name="" id="number" placeholder="Type a number...">
+            <input type="submit" value="Guess" id="guessBtn" onclick="restart()">
+        </form>
     </div>
 
+
+
+    
     <script src="guess.js"></script>
 </body>
 </html>
